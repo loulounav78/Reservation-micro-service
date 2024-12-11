@@ -127,8 +127,6 @@ router.get("/:id", ReservationController.getById);
  *                 $ref: '#/components/schemas/Reservation'
  *       404:
  *         description: No reservations found for this client
- *       500:SSS
- *         description: Server error
  */
 router.get("/client/:client_id", ReservationController.getByClientId);
 
